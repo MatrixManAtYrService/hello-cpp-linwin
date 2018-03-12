@@ -1,7 +1,7 @@
 #ifndef test_cowsay_h
 #define test_cowsay_h
 
-#define BOOST_TEST_MODULE "Sky Core Tests"          // only needed once per test executable
+#define BOOST_TEST_MODULE "Hello Tests"             // only needed once per test executable
 #include "testHelper.h"
 
 #include "cowsay.h"                                 // contains the class under test
