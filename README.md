@@ -121,7 +121,7 @@ After cloning this repo, execute:
 
 `git submodule update --init`
 
-This will download [FakeIt](https://github.com/eranpeer/FakeIt), which goes (along with any other third-party header-only library you include) goes in `./externalIqnclude/` which is a good place for code that you didn't write.
+This will download [FakeIt](https://github.com/eranpeer/FakeIt), which goes (along with any other third-party header-only library you include) goes in `./externalInclude/` which is a good place for code that you didn't write.
 
 ### Configure
 
