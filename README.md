@@ -101,11 +101,11 @@ In addition to git (duh), you'll need to install boost-program-options, boost-te
 
 On my (ubuntu) install, the following command does the trick:
     
-    apt install cmake libboost-test1.58-dev libbost-program-options1.58-dev
+    apt install g++ cmake libboost-test1.65.1-dev libbost-program-options1.65.1-dev
 
 Or if you want to install the whole boost suite:
 
-    apt install cmake libboost-all-dev
+    apt install g++ cmake libboost-all-dev
 
 ##### Windows
 

@@ -41,7 +41,7 @@ IF(WIN32)
     # set local boost location
     # example system variable values:
     # BoostRoot : C:\usr\local\Boost
-    # BoostVer  : 1_62
+    # BoostVer  : 1_65_1
 
     # Find the boost libraries
     SET(BOOST_ROOT "$ENV{BoostRoot}")
@@ -297,8 +297,7 @@ IF(NOT WIN32)
 	set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "says 'Hello World'")
 	set(CPACK_DEBIAN_PACKAGE_VERSION ${VERSION_STR})
 	set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE ${CMAKE_DEB_HOST_ARCH})
-    #set(CPACK_DEBIAN_PACKAGE_DEPENDS "libboost-chrono1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-log1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-date-time1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-filesystem1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-program-options1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-regex1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-system1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-thread1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-test1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-coroutine1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-context1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libsqlite3-0 (>=3.11.0-1ubuntu1), libssl1.0.0 (>=1.0.2g-1ubuntu4.6), sqlite3 (>=3.11.0-1ubuntu1)")
-    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libboost-program-options1.58.0 (>=1.58.0+dfsg-5ubuntu3.1), libboost-test1.58.0 (>=1.58.0+dfsg-5ubuntu3.1)")
+    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libboost-program-options1.65.1, libboost-test1.65.1")
 	#set(CPACK_DEBIAN_PACKAGE_CONTROL_EXTRA "pre/post install config stuff here")
 
 ENDIF()
